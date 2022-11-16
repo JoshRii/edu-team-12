@@ -1,0 +1,4 @@
+gcloud compute networks create frontend-server 
+--project=gads-project-92797 
+--description=Only\ for\ frontend\ services 
+--subnet-mode=auto --mtu=1460 --bgp-routing-mode=global
